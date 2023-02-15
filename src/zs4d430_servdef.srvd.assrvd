@@ -1,0 +1,4 @@
+@EndUserText.label: 'DEFINITION'
+define service ZS4D430_SERVDEF {
+  expose ZS4D430_CDS12;
+}

@@ -1,0 +1,13 @@
+@EndUserText.label: 'ACC'
+@MappingRole: true
+define role ZACC3_CDS12 {
+    grant 
+        select
+            on
+             ZS4D430_CDS12
+                    where
+         (CARRID)  = aspect pfcg_auth( S_CARRID , 
+                                          CARRID ,
+                                         ACTVT  = '03');
+                        
+}

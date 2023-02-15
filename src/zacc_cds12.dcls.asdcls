@@ -1,0 +1,11 @@
+@EndUserText.label: 'CDS12'
+@MappingRole: true
+define role ZACC_CDS12 {
+    grant
+        select
+            on
+                ZS4D430_CDS12
+                    where
+                         CARRID <> 'AA';
+                        
+}
